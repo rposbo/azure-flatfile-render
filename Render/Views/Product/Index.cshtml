@@ -1,0 +1,11 @@
+﻿@model dynamic
+
+@{
+    ViewBag.Title = Model.title;
+    Layout = "~/Views/_Layout.cshtml";
+}
+
+<h2>@Model.title</h2>
+
+Here's a lovely @Model.name. <br />
+Why not buy one for a mere @Model.price?
